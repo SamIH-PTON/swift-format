@@ -39,6 +39,7 @@ Here's the list of available rules:
 - [OneCasePerLine](#OneCasePerLine)
 - [OneVariableDeclarationPerLine](#OneVariableDeclarationPerLine)
 - [OnlyOneTrailingClosureArgument](#OnlyOneTrailingClosureArgument)
+- [OrderedDeclarations](#OrderedDeclarations)
 - [OrderedImports](#OrderedImports)
 - [ReplaceForEachWithForLoop](#ReplaceForEachWithForLoop)
 - [ReturnVoidInsteadOfEmptyTuple](#ReturnVoidInsteadOfEmptyTuple)
@@ -388,6 +389,11 @@ Lint: If a function call with a trailing closure also contains a non-trailing cl
       a lint error is raised.
 
 `OnlyOneTrailingClosureArgument` is a linter-only rule.
+
+### OrderedDeclarations
+
+
+`OrderedDeclarations` rule can format your code automatically.
 
 ### OrderedImports
 

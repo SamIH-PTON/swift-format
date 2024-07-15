@@ -82,6 +82,7 @@ add_library(SwiftFormat
   Rules/OneCasePerLine.swift
   Rules/OneVariableDeclarationPerLine.swift
   Rules/OnlyOneTrailingClosureArgument.swift
+  Rules/OrderedDeclarations.swift
   Rules/OrderedImports.swift
   Rules/ReplaceForEachWithForLoop.swift
   Rules/ReturnVoidInsteadOfEmptyTuple.swift

@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-format}",
+            "name": "Debug swift-format",
+            "program": "${workspaceFolder:swift-format}/.build/debug/swift-format",
+            "preLaunchTask": "swift: Build Debug swift-format"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-format}",
+            "name": "Release swift-format",
+            "program": "${workspaceFolder:swift-format}/.build/release/swift-format",
+            "preLaunchTask": "swift: Build Release swift-format"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-format}",
+            "name": "Debug generate-swift-format",
+            "program": "${workspaceFolder:swift-format}/.build/debug/generate-swift-format",
+            "preLaunchTask": "swift: Build Debug generate-swift-format"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-format}",
+            "name": "Release generate-swift-format",
+            "program": "${workspaceFolder:swift-format}/.build/release/generate-swift-format",
+            "preLaunchTask": "swift: Build Release generate-swift-format"
+        }
+    ]
+}

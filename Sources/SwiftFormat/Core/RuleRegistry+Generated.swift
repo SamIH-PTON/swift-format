@@ -43,6 +43,7 @@
     "OneCasePerLine": true,
     "OneVariableDeclarationPerLine": true,
     "OnlyOneTrailingClosureArgument": true,
+    "OrderedDeclarations": true,
     "OrderedImports": true,
     "ReplaceForEachWithForLoop": true,
     "ReturnVoidInsteadOfEmptyTuple": true,
